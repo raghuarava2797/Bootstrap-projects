@@ -1,0 +1,91 @@
+nav {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    justify-content: space-between;
+}
+
+.logo-class {
+    align-self: center;
+}
+
+.logo-class img {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 5.5px;
+}
+
+.middle-elements {
+    align-self: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.middle-elements a {
+    padding: 25px;
+}
+
+.login-button {
+    align-self: center;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.middle-elements a label {
+    color: white;
+}
+
+.login-button .btn-danger {
+    margin-right: 20px;
+}
+
+
+/* .main-image {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    border: 5px;
+} */
+
+#main-image img {
+    width: 100%;
+    height: auto;
+    max-height: 54.9vh;
+    margin-top: 20px;
+}
+
+#card-div {
+    margin-top: 30px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.card-text {
+    color: black;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card:hover {
+    background-color: green;
+    color: white;
+}
+
+p label {
+    text-decoration: underline greenyellow;
+    text-decoration-style: solid;
+    margin-top: 10px;
+}
+
+p label:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#ipsum {
+    color: black;
+}
