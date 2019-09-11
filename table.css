@@ -1,0 +1,8 @@
+.nav-bar {
+    display: flex;
+    background-color: white;
+    position: relative;
+    background: 5em;
+    border: 100px;
+    border-color: black;
+}
